@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import axios from 'axios';
-import './ListaCandidatos.css';
+import './listaCandidatos.css';
 
 export default function ListaCandidatos() {
   const [candidatos, setCandidatos] = useState([]);
